@@ -6,7 +6,7 @@ A transformer-based model for generating short music snippets, originally implem
 - Generated samples available in `audio/`
 
 ## Start
-- You can use the 'data/test` provided data subset or provided cached files for quicker generation, otherwise you can download more data from the data source [Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) (Raffel, 2016)
+- You can use the `data/test` provided data subset or provided cached files for quicker generation, otherwise you can download more data from the data source [Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) (Raffel, 2016)
 
 ## Features
 - Python and PyTorch
