@@ -7,6 +7,7 @@ A transformer-based model for generating short music snippets, originally implem
 
 ## Start
 - You can use the `data/test` provided data subset or provided cached files in `model_weight/` for quicker generation, otherwise you can download more data from the data source [Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) (Raffel, 2016)
+- Run the `local-colab-musicgen.ipynb`
 
 ## Features
 - Python and PyTorch
