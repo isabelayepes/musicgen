@@ -1,12 +1,12 @@
 # Music Generation with Transformers
 
-A transformer-based model for generating short music snippets, originally implemented as a group project for my AC 209B Data Science 2 class.
+A transformer-based model for generating short music snippets, originally implemented as a group project for the AC 209B Data Science 2 course.
 
 ## Sample Outputs
 - Generated samples available in `audio/`
 
 ## Start
-- You can use the `data/test` provided data subset or provided cached files for quicker generation, otherwise you can download more data from the data source [Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) (Raffel, 2016)
+- You can use the `data/test` provided data subset or provided cached files in `model_weight/` for quicker generation, otherwise you can download more data from the data source [Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) (Raffel, 2016)
 
 ## Features
 - Python and PyTorch
