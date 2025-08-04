@@ -1,1 +1,2 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
+data/midicaps_train.json.zip filter=lfs diff=lfs merge=lfs -text
