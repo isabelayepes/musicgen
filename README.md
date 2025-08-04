@@ -6,12 +6,12 @@ A transformer-based model for generating short music snippets, originally implem
 - Generated samples available in `audio/`
 
 ## Start
-- You can use the `data/test` provided data subset or provided cached files in `model_weight/` and `data/` for quicker generation, otherwise you can download more data from the data source [Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) (Raffel, 2016)
-- Run the `local-colab-musicgen.ipynb`
+- You can unzip and use the `data/test` provided data subset or provided cached files in `model_weight/` and `data/` for quicker generation, otherwise you can download more data from the data source [Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) (Raffel, 2016)
+- Run the `local-colab-musicgen.ipynb` which will default to cached files if found
 
 ## Features
 - Python and PyTorch
-- Colab and local environment support
+- Automatic Google Colab versus local environment detection and support
 - Data filtration for top 5 genres and 10 seconds or more music duration
 - Automatic cache saving/loading
 - Data visualization and charts even for cached data
@@ -21,9 +21,6 @@ A transformer-based model for generating short music snippets, originally implem
 
 ## Dependencies
 - See `requirements.txt` for Python environment dependencies
-
-## Note
-Training takes significant time - use provided weights in `model_weights/` for quick testing.
 
 ## Data sources and background
 
