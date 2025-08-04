@@ -23,7 +23,7 @@ A transformer-based model for generating short music snippets, originally implem
 - See `requirements.txt` for Python environment dependencies
 
 ## Note
-Training takes significant time - use provided weights for quick testing.
+Training takes significant time - use provided weights in `model_weights/` for quick testing.
 
 ## Data sources and background
 
